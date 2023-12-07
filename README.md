@@ -1,3 +1,18 @@
+# Test project for AYATIRO Internship program
+
+In this test project, I have tried to complete the requirements as much as possible.
+
+# Requirements 
+To my own understanding these are the requirements that needed to be completed:
+
+creating similar single page application from the provided pdf file
+building intuitive and responsive user interface using React and Tailwind css
+implementing the necessary functionalities such as conditional rendering of the components,
+handling events(click) for buttons and adding dynamic classes
+
+
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -48,6 +63,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+
+
+
 
 ### Analyzing the Bundle Size
 

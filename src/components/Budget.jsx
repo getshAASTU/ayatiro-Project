@@ -5,7 +5,7 @@ const Budget = () => {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="grid grid-cols-2 gap-y-4 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-y-4 place-items-center md:grid-cols-2 lg:grid-cols-4 mb-10">
         <div className="flex flex-col min-h-[12rem] w-[5rem] justify-between items-center bg-white mx-6 px-5 py-5 rounded-t-full rounded-b-full">
           <p className="text-lg">$</p>
           <div className="w-4 h-4 border border-solid border-gray-500 rounded-full" />
@@ -14,16 +14,18 @@ const Budget = () => {
           <p className="text-lg">$$</p>
           <div className="w-4 h-4 border border-solid border-gray-500 rounded-full" />
         </div>
-        <div className="flex flex-col min-h-[12rem] w-[5rem] sm:hidden md:block justify-between items-center bg-white mx-6 px-5 py-5 rounded-t-full rounded-b-full">
+        <div className="flex flex-col min-h-[12rem] w-[5rem] justify-between items-center bg-white mx-6 px-5 py-5 rounded-t-full rounded-b-full">
           <p className="text-lg">$$$</p>
           <div className="w-4 h-4 border border-solid border-gray-500 rounded-full" />
         </div>
-        <div className="flex flex-col min-h-[12rem] w-[5rem] sm:hidden md:block justify-between items-center bg-white mx-6 px-5 py-5 rounded-t-full rounded-b-full">
+        <div className="flex flex-col min-h-[12rem] w-[5rem] justify-between items-center bg-white mx-6 px-5 py-5 rounded-t-full rounded-b-full">
           <p className="text-lg">$$$$</p>
           <div className="w-4 h-4 border border-solid border-gray-500 rounded-full" />
         </div>
+       
+      
       </div>
-      <div className="flex justify-between gap-5 px-10 my-4">
+      <div className="flex justify-between gap-5 px-10 mt-10">
         <button
           onClick={prevHandler}
           className="rounded-2xl px-3 py-1 text-center text-black font-normal bg-white"
