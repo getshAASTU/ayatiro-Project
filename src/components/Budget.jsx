@@ -32,7 +32,7 @@ const Budget = () => {
         >
           Previous Question
         </button>
-        <div className="flex gap-3 items-center">
+        <div className="flex flex-col md:flex-row gap-3 items-center">
           <p>
             Products Available (728){" "}
             <span>

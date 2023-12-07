@@ -10,7 +10,7 @@ const Main = () => {
         showActivities,
       } = useGlobalContext();
   return (
-    <main className="w-[50vw] md:w-[70vw] bg-[#f4e3dd]">
+    <main className="w-[60vw] md:w-[70vw] bg-[#f4e3dd]">
     <div className="mt-14">
       {showRooms && <Rooms />}
       {showActivities && <Activities />}

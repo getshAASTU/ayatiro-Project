@@ -27,7 +27,7 @@ const Activities = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-between gap-5 px-10 my-4">
+      <div className="flex flex-col md:flex-row justify-between gap-5 px-10 my-4">
         <button onClick={prevHandler} className="rounded-2xl px-3 py-1 text-center text-black font-normal bg-white">
           Previous Question
         </button>
