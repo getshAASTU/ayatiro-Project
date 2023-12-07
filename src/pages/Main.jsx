@@ -1,8 +1,8 @@
 import React from 'react'
-import Rooms from './components/Rooms'
-import Activities from './components/Activities'
-import Budget from './components/Budget'
-import { useGlobalContext } from "./context";
+import Rooms from '../components/Rooms'
+import Activities from '../components/Activities'
+import Budget from '../components/Budget'
+import { useGlobalContext } from "../context";
 const Main = () => {
     const {
         showRooms,

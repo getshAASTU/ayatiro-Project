@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 
+.active{
+    background-color: #4c67ff;
+}
+.added{
+    background-color: rgb(138, 219, 58);
+}

@@ -28,10 +28,10 @@ const Activities = () => {
         ))}
       </div>
       <div className="flex justify-between gap-5 px-10 my-4">
-        <button onClick={prevHandler} className="rounded-2xl px-3 py-1 text-center text-black font-bold bg-white">
+        <button onClick={prevHandler} className="rounded-2xl px-3 py-1 text-center text-black font-normal bg-white">
           Previous Question
         </button>
-        <button onClick={nextHandler} className="rounded-2xl px-3 py-1 text-center text-white font-bold bg-[#2F4F4F] ">
+        <button onClick={nextHandler} className="rounded-2xl px-3 py-1 text-center text-white font-normal bg-[#2F4F4F] ">
           Next Question
         </button>
       </div>

@@ -25,7 +25,7 @@ const Budget = () => {
        
       
       </div>
-      <div className="flex justify-between gap-5 px-10 mt-10">
+      <div className="flex flex-col md:flex-row justify-between gap-5 px-10 mt-10">
         <button
           onClick={prevHandler}
           className="rounded-2xl px-3 py-1 text-center text-black font-normal bg-white"
@@ -44,7 +44,7 @@ const Budget = () => {
           </p>
           <button
             onClick={nextHandler}
-            className="rounded-2xl px-3 py-1 text-center text-white font-bold bg-[#2F4F4F] "
+            className="rounded-2xl px-3 py-1 text-center text-white font-normal bg-[#2F4F4F] "
           >
             Next Question
           </button>

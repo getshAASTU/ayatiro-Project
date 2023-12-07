@@ -1,5 +1,4 @@
-import "./App.css";
-import Main from "./Main";
+import Main from "./pages/Main";
 import Sidebar from "./components/Sidebar";
 import AppProvider from "./context";
 function App() {
